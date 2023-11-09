@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . .
 
 # Cross-compile for Windows
-ENV GOOS=windows
-ENV GOARCH=amd64
+#ENV GOOS=windows
+#ENV GOARCH=amd64
 ENV CGO_ENABLED=1
-ENV CC=x86_64-w64-mingw32-gcc
+#ENV CC=x86_64-w64-mingw32-gcc
